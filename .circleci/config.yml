@@ -3,9 +3,10 @@ jobs:
   preview_deployment:
     docker:
       - image: circleci/node:latest
+      #Alternative way to include vercel_org_id and vercel_project_id
     # environment:
-      # VERCEL_ORG_ID: $VERCEL_ORG_ID
-      # VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
+      # VERCEL_ORG_ID: huG0A3weJFcdfxkN4fCabkG3
+      # VERCEL_PROJECT_ID: prj_aZzLt3xxOpE7aowCgVCJ8lHNXOf4
     steps:
       - checkout
       - run:
@@ -25,8 +26,8 @@ jobs:
     docker:
       - image: circleci/node:latest
     # environment:
-      # VERCEL_ORG_ID: $VERCEL_ORG_ID
-      # VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
+      # VERCEL_ORG_ID: huG0A3weJFcdfxkN4fCabkG3
+      # VERCEL_PROJECT_ID: prj_aZzLt3xxOpE7aowCgVCJ8lHNXOf4
     steps:
       - checkout
       - run:
