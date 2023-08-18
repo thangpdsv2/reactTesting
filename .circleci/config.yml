@@ -31,7 +31,7 @@ jobs:
       - checkout
       - run:
           name: Check Environment VERCEL_ORG_ID
-          command: echo $VERCEL_ORG_ID
+          command: printenv
       - run:
           name: Check Environment VERCEL_PROJECT_ID
           command: echo $VERCEL_PROJECT_ID
