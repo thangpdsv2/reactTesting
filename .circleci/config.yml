@@ -3,7 +3,7 @@ jobs:
   preview_deployment:
     docker:
       - image: circleci/node:latest
-    environment:
+    # environment:
       # VERCEL_ORG_ID: $VERCEL_ORG_ID
       # VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
     steps:
@@ -24,7 +24,7 @@ jobs:
   production_deployment:
     docker:
       - image: circleci/node:latest
-    environment:
+    # environment:
       # VERCEL_ORG_ID: $VERCEL_ORG_ID
       # VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
     steps:
