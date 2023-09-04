@@ -3,7 +3,7 @@ body{
   color:white;
 }
 .board-row{
-  display:flexk;
+  display:flex;
   max-height:120px;
 }
 
