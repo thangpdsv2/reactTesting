@@ -11,15 +11,15 @@ export default function Board() {
     console.log('reset')
     setArrBoard(Array(9).fill(null))
   }
-  function countXOrO(xOrO) {
-    let count = 0
-    arrBoard.forEach((item) => {
-      if (item === xOrO) {
-        count++
-      }
-    })
-    return count
-  }
+  // function countXOrO(xOrO) {
+  //   let count = 0
+  //   arrBoard.forEach((item) => {
+  //     if (item === xOrO) {
+  //       count++
+  //     }
+  //   })
+  //   return count
+  // }
   function handlerClick(index) {
     if (arrBoard[index] !== null) {
       console.log('not null')
